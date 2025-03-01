@@ -14,7 +14,7 @@ async function fetchGeminiResponse(event) {
     usermsg.classList = "user-msg";
     box.append(usermsg);
     scrollToBottom();
-    const apiKey = process.env.API_KEY;
+    const apiKey = "AIzaSyCQ_RGfXrV_8jMkb1PNOnTCLhrfnDDAKQA";
     const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
 
     const requestBody = {
