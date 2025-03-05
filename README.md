@@ -15,14 +15,14 @@ You will need an API key from Gemini to access their API services.
 
 You will need to install some dependencies for this project. This can be done easily using `pip` (for Python projects). Below are the main dependencies for this chatbot:
 
-``bash
+```bash
 pip install requests
 
 ### 3. Python Version
 Make sure you are using Python 3.6 or above. You can check your Python version using the following command
 
 
-``bash
+```bash
 python --version
 
 Ensure that the output indicates Python 3.6 or a higher version.
@@ -31,7 +31,7 @@ Ensure that the output indicates Python 3.6 or a higher version.
 1. Clone the Repository
 To start using this project, clone the repository using the following command:
 
-``bash
+````bash
 
 git clone https://github.com/ankit02yadav/AI.git
 2. Create the config.py File
@@ -46,7 +46,7 @@ GEMINI_API_KEY = 'your-api-key-here'
 3. Create Your Bot Script
 In the main bot file (e.g., bot.py), you'll integrate the API to handle user inputs and responses. Below is an example code snippet for that:
 
-``python
+```python
 import requests
 import json
 
